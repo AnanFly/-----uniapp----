@@ -1,0 +1,4 @@
+// 定义公共tabbar的高度
+$tabbar-height: 70px;
+// 页面高度,100vh减去tabbar的高度
+$page-height: calc(100vh - #{$tabbar-height});
